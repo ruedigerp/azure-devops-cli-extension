@@ -10,7 +10,7 @@ jobs:
     permissions:
       issues: write
     steps:
-    - uses: actions/stale@v3
+    - uses: actions/stale@v10
       env:
         ACTIONS_STEP_DEBUG: true
       with:
